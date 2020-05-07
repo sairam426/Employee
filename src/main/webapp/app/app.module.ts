@@ -14,6 +14,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
+import { CoreUiModule } from './layouts/coreui/coreui.module';
 
 @NgModule({
   imports: [
@@ -21,6 +22,7 @@ import { ErrorComponent } from './layouts/error/error.component';
     EmployeeSharedModule,
     EmployeeCoreModule,
     EmployeeHomeModule,
+    CoreUiModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     EmployeeEntityModule,
     EmployeeAppRoutingModule
